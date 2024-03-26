@@ -1,4 +1,4 @@
-import "../assets/stylesheet/User.css"
+import "../../assets/stylesheet/User.css"
 
 function User({user, onUpdateUser, onSubmitForm}) {
     function onChange(e) {

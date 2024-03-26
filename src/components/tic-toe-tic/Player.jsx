@@ -1,5 +1,5 @@
 import {useState} from "react";
-import '../assets/css/player.css'
+import '../../assets/stylesheet/player.css'
 
 function Player({initName, icon, isWinner, currentTurn}) {
     const [editMode, setEditMode] = useState(false)

@@ -1,5 +1,5 @@
 import {useState} from "react";
-import '../assets/css/game-board.css'
+import '../../assets/stylesheet/game-board.css'
 
 const board = [
     [null, null, null],
