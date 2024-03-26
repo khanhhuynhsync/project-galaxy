@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import reactLogo from './assets/img/react.svg'
+import viteLogo from './assets/img/vite.svg'
 import './App.css'
 import GameBoard from "./components/GameBoard.jsx";
 import Player from "./components/Player.jsx";
