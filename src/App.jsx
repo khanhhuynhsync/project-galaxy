@@ -1,18 +1,15 @@
-import reactLogo from './assets/img/react.svg'
-import viteLogo from './assets/img/vite.svg'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Header from "./components/Header.jsx";
+import Body from "./components/Body.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
-
     return (
         <div className='container-md'>
-            <a href="https://vitejs.dev" target="_blank">
-                <img src={viteLogo} className="logo" alt="Vite logo"/>
-            </a>
-            <a href="https://react.dev" target="_blank">
-                <img src={reactLogo} className="logo react" alt="React logo"/>
-            </a>
+            <Header/>
+            <Body/>
+            <Footer/>
         </div>
     )
 }
